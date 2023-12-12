@@ -9,9 +9,9 @@ logo: logo.png
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
-    sys_path:
-      - /path/to/genetic_algorithm_pfm
-      - /path/to/tetra_pfm
+  sys_path:
+    - /path/to/genetic_algorithm_pfm
+    - /path/to/tetra_pfm
 
 # Define the name of the latex output file for PDF builds
 latex:
